@@ -32,15 +32,14 @@ class DownloadButton extends StatelessWidget {
         child: Row(
           children: [
             Text(
-              'Download CV',
+              'Download APK',
               style: Theme.of(context).textTheme.labelSmall!.copyWith(
                   color: Colors.white,
                   letterSpacing: 1.2,
                   fontWeight: FontWeight.bold),
             ),
             const SizedBox(width: defaultPadding/3,),
-            const Icon(FontAwesomeIcons.download,color: Colors.white70,size: 15,)
-
+            const Icon(FontAwesomeIcons.googlePlay,color: Colors.white70,size: 15,)
           ],
         ),
       ),
