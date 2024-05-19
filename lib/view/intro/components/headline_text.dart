@@ -11,7 +11,7 @@ class MyPortfolioText extends StatelessWidget {
         tween: Tween(begin: start, end: end),
         duration: const Duration(milliseconds: 200),
         builder: (context, value, child) {
-          return Text('Hardware & Software \nResearch and Development',
+          return Text('Hardware and Software',
               style: Theme.of(context).textTheme.headlineLarge!.copyWith(
                   color: Colors.white,
                   fontWeight: FontWeight.w900,
